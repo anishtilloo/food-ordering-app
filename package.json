@@ -4,7 +4,9 @@
   "description": "an app to order food",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
   },
   "author": "Anish Tilloo",
   "license": "ISC",
